@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  
+ <hibernate-mapping>  
+	<class name="com.bvk.entity.Student" table="student100">
+		<id name="studentId">
+			<generator class="assigned"></generator>
+		</id>
+		
+		<property name="name"></property>
+		
+		<property name="percent" type="float"></property>
+	</class>
+ </hibernate-mapping>
